@@ -1,0 +1,27 @@
+/*
+Theme Name: griffin-gallery
+Theme URI: http://www.anthonyperuzzo.com
+Description: A custom theme for the Griffin Gallery
+Author: Anthony Peruzzo
+Author URI: http://www.anthonyperuzzo.com
+Version: 1.0
+Tags: responsive, white, bootstrap
+
+License: Attribution-ShareAlike 3.0 Unported (CC BY-SA 3.0)
+License URI: http://creativecommons.org/licenses/by-sa/3.0/
+
+This theme was built using the foundations of the tutorial at: http://blog.teamtreehouse.com/responsive-wordpress-bootstrap-theme-tutorial;
+*/
+
+@import url('bootstrap/css/bootstrap.min.css'); 
+body {
+padding-top: 60px;
+padding-bottom: 40px;
+}
+
+.thin-border {
+	border: 1px solid black;
+	height: 300px;
+	max-width: 300px;
+	box-sizing: border-box;
+}
