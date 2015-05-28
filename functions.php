@@ -74,6 +74,15 @@ function create_posttype() {
   
 }
 
+//breadcrumb
+function the_breadcrumb() {
+    echo 'Back to ';
+    if (is_category() || is_single()) {
+      the_category('title_li=');
+    } 
+  
+}
+
 
 
 ?>

@@ -25,3 +25,7 @@ padding-bottom: 40px;
 	max-width: 300px;
 	box-sizing: border-box;
 }
+
+.mini-h1 {
+	font-size: 15px;
+}
